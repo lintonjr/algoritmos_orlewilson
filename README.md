@@ -11,8 +11,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 ## Conteúdo
 
 - [22/05/2019](#Parte1)
-  - [TYPO3 setup](#typo3-setup)
-  - [Extension](#extension)
+  - [Questão 1](#Questão1)
+  - [Questão 2](#Questão2)
   - [Database](#database)
 - [Page setup](#page-setup)
   - [Upload the page tree file](#upload-the-page-tree-file)
@@ -24,6 +24,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 ## Parte1
 
 Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
+
+### Questão1
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Questões de A à L)
 - Sabendo que A=5, B=4 e C=3 e D=6, informe se as expressões abaixo são verdadeiras ou
@@ -44,7 +46,9 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
   (E) V, V e F.
 
-* Considere as seguintes atribuições: R = 2, S = 5, T = -1, X = 3, Y = 1 e Z = 0. Resolva as
+### Questão2
+
+- Considere as seguintes atribuições: R = 2, S = 5, T = -1, X = 3, Y = 1 e Z = 0. Resolva as
   expressões abaixo:
   • A <- (Z >= 5) or (T > Z) and (X – Y + R > 3 \_ Z)
 
