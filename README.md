@@ -16,8 +16,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Questão 3](#Questão-3)
 - [29/05/2019](#Parte-2)
   - [Parte 2 Questão 1](#Parte-2-Questão-1)
-  - [Go to the import view](#go-to-the-import-view)
-  - [Import the uploaded page tree file](#import-the-uploaded-page-tree-file)
+  - [Parte 2 Questão 2](#Parte-2-Questão-2)
+  - [Parte 2 Questão 3](#Parte-2-Questão-3)
 - [License](#license)
 - [Links](#links) -->
 
@@ -28,6 +28,45 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 ### Questão 1
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Questões de A à L)
+
+**a)** Ler quatro notas, calcular a média aritmética e imprimir o resultado.
+
+**b)** Ler um número inteiro e imprimir seu sucessor e seu antecessor.
+
+**c)** Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a
+variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da
+variável A. Imprimir os valores trocados.
+
+**d)** Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60
+é 0.
+
+**e)** Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A
+fórmula de conversão é C = (F – 32) \* (5/9), na qual F é a temperatura em Fahrenheit
+e C é a temperatura em Celsius.
+
+**f)** Ler um número do tipo real e imprimir o resultado do quadrado desse número.
+
+**g)** Ler um número do tipo real e imprimir a quinta parte deste número.
+
+**h)** Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
+proporcionalmente ao valor que cada deu para a realização da aposta. Faça um
+programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
+quanto cada um ganharia do prêmio com base no valor investido.
+
+**i)** As lojas de um shopping center estão concedendo 10% de desconto no preço de
+qualquer produto. A partir do valor fornecido, calcule e exiba o preço atual e o preço
+com o desconto.
+
+**j)** Ler os valores de COMPRIMENTO, LARGURA e ALTURA e apresentar o valor do volume
+de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO \*
+LARGURA \* ALTURA.
+
+**k)** Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é
+fornecido pelo usuário.
+
+**l)** O número 3025 possui uma característica interessante, sendo a seguinte: 30 + 25 = 55
+e 552 = 3025. Elabore um algoritmo que verifique se um número inteiro de quatro
+algarismos (digitado) tem essa propriedade ou não.
 
 ### Questão 2
 
@@ -82,23 +121,91 @@ Considere o fluxograma a seguir:
 **(C)** Elabore o algoritmo correspondente em pseudocódigo, linguagem C e linguagem
 Python.
 
-<!-- ### Extension
+### Parte 2 Questão 2
 
-- Log into the TYPO3 back end
-- Click on ''Admin Tools::Extension Manager'' in the left navigation
-- Click the icon with the little plus sign left from the Aimeos list entry (looks like a lego brick)
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Itens de A a I)
 
-**Caution:** Install the **RealURL extension before the Aimeos extension** to get nice looking URLs. Otherwise, RealURL doesn't rewrite the parameters even if you install RealURL afterwards!
+a) Exibir o triângulo de Pascal, conforme indicado a seguir:
 
-![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
+```
+1
 
-### Database
+1 1
 
-Afterwards, you have to execute the update script of the extension to create the required database structure:
+1 2 1
 
-![Execute update script](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-update-7.x.png)
+1 3 3 1
 
-## Page setup
+1 4 6 4 1
+
+...
+```
+
+b) Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
+uma mensagem mostrando o número digital e o resultado do teste.
+
+c) Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
+é zero, par ou ímpar.
+
+d) De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
+múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
+
+e) Uma loja de departamentos está oferecendo diferentes formas de pagamento,
+conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor
+do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento
+parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor
+das parcelas.
+
+```
+• Pagamento à visa – conceder desconto de 5%;
+
+• Pagamento em 3 parcelas – o valor não sofre alteração;
+
+• Pagamento em 5 parcelas – acréscimo de 2%;
+
+• Pagamento em 10 parcelas – acréscimo de 8%
+```
+
+f) Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
+triângulo. O ABC é triângulo `se A < B + C e B < A + C e C < A + B`.
+
+g) Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
+rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia `“Banana”`,
+deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“ananaB”`,
+`“nanaBa”`, `“anaBan”`, `“aBanan”`, `“Banana”`.
+
+h) Calcular e mostrar a tabuada de um número informado pelo usuário.
+
+i) Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
+| **Categoria** | **Idade** |
+| ------------- | ------------- |
+| Infantil | 5 a 7 |
+| Juvenil | 8 a 10 |
+| Adolescente | 11 a 15 |
+| Adolescente | 11 a 15 |
+| Adulto | 16 a 30 |
+| Sênior | Acima de 30 |
+
+### Parte 2 Questão 3
+
+[FCC – 2012 – TST – Técnico Judiciário] Fornecidos os dados das candidatas ao time de
+basquete: altura, peso e idade e as restrições abaixo:
+
+**Altura:** de 1.70 a 1.85 m
+
+**Peso:** de 48 a 60 kg
+
+**Idade:** de 15 a 20 anos
+
+**O trecho de algoritmo, em pseudocódigo, que verifica corretamente se os dados se enquadram nas restrições fornecidas é:**
+**(A)** `se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos) então imprima(“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
+
+**(B)** `se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20)) então imprima (“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
+**(C)** `se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20)) então imprima(“Candidata aprovada”) senão imprima(“Candidata reprovada”)`
+**(D)** `se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20) então imprima (“ Candidata aprovada”) senão imprima (“Candidata reprovada”)`
+**(E)** `se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20)) então imprima (“Candidata aprovada”) senão imprima (“Candidata reprovada”)`
+
+<!-- ## Page setup
 
 The page setup for an Aimeos web shop is easy if you import the [standard page tree for TYPO3 8.7/9.5](https://aimeos.org/docs/TYPO3/Install_Aimeos/Setup_pages#Download) into your TYPO3 installation.
 
@@ -145,4 +252,4 @@ license and is available for free.
 - [Documentation](https://aimeos.org/docs/TYPO3)
 - [Forum](https://aimeos.org/help/typo3-extension-f16/)
 - [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-- [Source code](https://github.com/aimeos/aimeos-typo3) --> -->
+- [Source code](https://github.com/aimeos/aimeos-typo3) -->
