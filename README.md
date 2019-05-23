@@ -33,44 +33,44 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Questões de A à L)
 
-**A)** Ler quatro notas, calcular a média aritmética e imprimir o resultado.
+- **A)** Ler quatro notas, calcular a média aritmética e imprimir o resultado.
 
-**B)** Ler um número inteiro e imprimir seu sucessor e seu antecessor.
+- **B)** Ler um número inteiro e imprimir seu sucessor e seu antecessor.
 
-**C)** Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a
-variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da
-variável A. Imprimir os valores trocados.
+- **C)** Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a
+  variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da
+  variável A. Imprimir os valores trocados.
 
-**D)** Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60
-é 0.
+- **D)** Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60
+  é 0.
 
-**E)** Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A
-fórmula de conversão é C = (F – 32) \* (5/9), na qual F é a temperatura em Fahrenheit
-e C é a temperatura em Celsius.
+- **E)** Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A
+  fórmula de conversão é C = (F – 32) \* (5/9), na qual F é a temperatura em Fahrenheit
+  e C é a temperatura em Celsius.
 
-**F)** Ler um número do tipo real e imprimir o resultado do quadrado desse número.
+- **F)** Ler um número do tipo real e imprimir o resultado do quadrado desse número.
 
-**G)** Ler um número do tipo real e imprimir a quinta parte deste número.
+- **G)** Ler um número do tipo real e imprimir a quinta parte deste número.
 
-**H)** Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
-proporcionalmente ao valor que cada deu para a realização da aposta. Faça um
-programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
-quanto cada um ganharia do prêmio com base no valor investido.
+- **H)** Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
+  proporcionalmente ao valor que cada deu para a realização da aposta. Faça um
+  programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
+  quanto cada um ganharia do prêmio com base no valor investido.
 
-**I)** As lojas de um shopping center estão concedendo 10% de desconto no preço de
-qualquer produto. A partir do valor fornecido, calcule e exiba o preço atual e o preço
-com o desconto.
+- **I)** As lojas de um shopping center estão concedendo 10% de desconto no preço de
+  qualquer produto. A partir do valor fornecido, calcule e exiba o preço atual e o preço
+  com o desconto.
 
-**J)** Ler os valores de COMPRIMENTO, LARGURA e ALTURA e apresentar o valor do volume
-de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO \*
-LARGURA \* ALTURA.
+- **J)** Ler os valores de COMPRIMENTO, LARGURA e ALTURA e apresentar o valor do volume
+  de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO \*
+  LARGURA \* ALTURA.
 
-**K)** Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é
-fornecido pelo usuário.
+- **K)** Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é
+  fornecido pelo usuário.
 
-**L)** O número 3025 possui uma característica interessante, sendo a seguinte: 30 + 25 = 55
-e 552 = 3025. Elabore um algoritmo que verifique se um número inteiro de quatro
-algarismos (digitado) tem essa propriedade ou não.
+- **L)** O número 3025 possui uma característica interessante, sendo a seguinte: 30 + 25 = 55
+  e 552 = 3025. Elabore um algoritmo que verifique se um número inteiro de quatro
+  algarismos (digitado) tem essa propriedade ou não.
 
 ### Questão 2
 
@@ -118,18 +118,19 @@ algarismos (digitado) tem essa propriedade ou não.
 
 Considere o fluxograma a seguir:
 [![Questão 1 - Parte 2](http://oi63.tinypic.com/2e6a3xk.jpg)](http://oi63.tinypic.com/2e6a3xk.jpg)
-**(A)** Identifique as estruturas de programação nela contidas.
 
-**(B)** Para que serve esse fluxograma? Simule-o para os seguintes valores de N: 1, 2, 3 e 7.
+- **(A)** Identifique as estruturas de programação nela contidas.
 
-**(C)** Elabore o algoritmo correspondente em pseudocódigo, linguagem C e linguagem
-Python.
+- **(B)** Para que serve esse fluxograma? Simule-o para os seguintes valores de N: 1, 2, 3 e 7.
+
+- **(C)** Elabore o algoritmo correspondente em pseudocódigo, linguagem C e linguagem
+  Python.
 
 ### Parte 2 Questão 2
 
 Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Itens de A a I)
 
-**A)** Exibir o triângulo de Pascal, conforme indicado a seguir:
+- **A)** Exibir o triângulo de Pascal, conforme indicado a seguir:
 
 ```
 1
@@ -145,20 +146,20 @@ Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a segui
 ...
 ```
 
-**B)** Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
-uma mensagem mostrando o número digital e o resultado do teste.
+- **B)** Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
+  uma mensagem mostrando o número digital e o resultado do teste.
 
-**C)** Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
-é zero, par ou ímpar.
+- **C)** Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
+  é zero, par ou ímpar.
 
-**D)** De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
-múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
+- **D)** De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
+  múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
 
-**E)** Uma loja de departamentos está oferecendo diferentes formas de pagamento,
-conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor
-do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento
-parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor
-das parcelas.
+- **E)** Uma loja de departamentos está oferecendo diferentes formas de pagamento,
+  conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor
+  do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento
+  parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor
+  das parcelas.
 
 ```
 • Pagamento à visa – conceder desconto de 5%;
@@ -170,17 +171,17 @@ das parcelas.
 • Pagamento em 10 parcelas – acréscimo de 8%
 ```
 
-**F)** Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
-triângulo. O ABC é triângulo `se A < B + C e B < A + C e C < A + B`.
+- **F)** Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
+  triângulo. O ABC é triângulo `se A < B + C e B < A + C e C < A + B`.
 
-**G)** Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
-rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia `“Banana”`,
-deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“ananaB”`,
-`“nanaBa”`, `“anaBan”`, `“aBanan”`, `“Banana”`.
+- **G)** Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
+  rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia `“Banana”`,
+  deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“ananaB”`,
+  `“nanaBa”`, `“anaBan”`, `“aBanan”`, `“Banana”`.
 
-**H)** Calcular e mostrar a tabuada de um número informado pelo usuário.
+- **H)** Calcular e mostrar a tabuada de um número informado pelo usuário.
 
-**I)** Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
+- **I)** Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
 
 | **Categoria** | **Idade**   |
 | ------------- | ----------- |
@@ -204,7 +205,7 @@ basquete: altura, peso e idade e as restrições abaixo:
 
 **O trecho de algoritmo, em pseudocódigo, que verifica corretamente se os dados se enquadram nas restrições fornecidas é:**
 
-**(A)**
+- **(A)**
 
 ```
 se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos)
@@ -214,7 +215,7 @@ senão
     imprima (“Candidato reprovado”)
 ```
 
-**(B)**
+- **(B)**
 
 ```
 se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20))
@@ -224,7 +225,7 @@ senão
     imprima (“Candidato reprovado”)
 ```
 
-**(C)**
+- **(C)**
 
 ```
 se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20))
@@ -234,7 +235,7 @@ senão
     imprima(“Candidata reprovada”)
 ```
 
-**(D)**
+- **(D)**
 
 ```
 se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20)
@@ -244,7 +245,7 @@ senão
     imprima (“Candidata reprovada”)
 ```
 
-**(E)**
+- **(E)**
 
 ```
 se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20))
@@ -263,9 +264,9 @@ senão
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir:
 
-```
-A) Escrever um programa que gere a letra da canção muito popular entre os programadores:
+- **A)** Escrever um programa que gere a letra da canção muito popular entre os programadores:
 
+```
 99 bugs no software, pegue um deles e conserte...
 
 100 bugs no software, pegue um deles e conserte...
@@ -278,15 +279,15 @@ A) Escrever um programa que gere a letra da canção muito popular entre os prog
 Faça o programa de forma a gerar a letra da música com o número de bugs no software
 variando de 99 a 250.
 
-B) Escreva um programa que imprima todos os anos bissextos do século XXI. Lembre-se que o primeiro ano bissexto do século foi 2004 e que o último será 2096 e que anos bissextos ocorrem usualmente de 4 em 4 anos. Assim, a lista que o programa vai imprimir deve ser `2004`, `2008`, `2012`, `2016`, `...`, `2092`, `2096`.
+- **B)** Escreva um programa que imprima todos os anos bissextos do século XXI. Lembre-se que o primeiro ano bissexto do século foi 2004 e que o último será 2096 e que anos bissextos ocorrem usualmente de 4 em 4 anos. Assim, a lista que o programa vai imprimir deve ser `2004`, `2008`, `2012`, `2016`, `...`, `2092`, `2096`.
 
-C) Informar a entrada de n valores e mostre a soma de seus quadrados.
+- **C)** Informar a entrada de n valores e mostre a soma de seus quadrados.
 
-D) Calcular a soma dos primeiros N temos da sequência definida a seguir, com N fornecido pelo usuário: `S = 1 + 2 + 3 + 4 + 5 + ... + N`
+- **D)** Calcular a soma dos primeiros N temos da sequência definida a seguir, com N fornecido pelo usuário: `S = 1 + 2 + 3 + 4 + 5 + ... + N`
 
-E) Considerando a sequência de Fibonacci `(1, 1, 2, 3, 5, 8, 13, ..., n)`, escreva um algoritmo para gerar essa sequência, até o enésimo termo, fornecido pelo usuário. Por exemplo, se o usuário digitou o número 40, deverão ser gerados os primeiros 40 números.
+- **E)** Considerando a sequência de Fibonacci `(1, 1, 2, 3, 5, 8, 13, ..., n)`, escreva um algoritmo para gerar essa sequência, até o enésimo termo, fornecido pelo usuário. Por exemplo, se o usuário digitou o número 40, deverão ser gerados os primeiros 40 números.
 
-F) A partir de um conjunto de números inteiros sequenciais, obtidos com base em dados fornecidos pelo usuário (número inicial e final), identifique e apresente:
+- **F)** A partir de um conjunto de números inteiros sequenciais, obtidos com base em dados fornecidos pelo usuário (número inicial e final), identifique e apresente:
 
 ```
 • A quantidade de números pares;
@@ -306,9 +307,9 @@ F) A partir de um conjunto de números inteiros sequenciais, obtidos com base em
 
 Considere dois vetores A e B com cinco elementos indexados a partir de 1. Qual será o valor da variável C a ser exibido pelo fluxograma a seguir se forem digitados os seguintes valores para os vetores A e B:
 
-**A.** Elementos de `A: (4, 6, 7, 1, 0)` (nesta ordem)
+- **A.** Elementos de `A: (4, 6, 7, 1, 0)` (nesta ordem)
 
-**B.** Elementos de `B: (7, 1, 3, 1, 2)` (nesta ordem)
+- **B.** Elementos de `B: (7, 1, 3, 1, 2)` (nesta ordem)
 
 [![Questão 4 - Parte 1](http://oi67.tinypic.com/24ypqvb.jpg)](http://oi67.tinypic.com/24ypqvb.jpg)
 
