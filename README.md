@@ -23,6 +23,7 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 - [05/06/2019](#Parte-4)
   - [Parte 4 Questão 1](#Parte-4-Questão-1)
   - [Parte 4 Questão 2](#Parte-4-Questão-2)
+  - [Parte 4 Questão 3](#Parte-4-Questão-3)
 - [Links](#links) -->
 
 ## Parte 1
@@ -334,6 +335,29 @@ Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a segui
 - **D)** A partir de cinco vetores de cinco elementos inteiros, fornecidos pelo usuário, crie uma matriz de cinco linhas e colunas e exiba seu conteúdo.
 
 - **E)** Uma pessoa comprou quatro artigos em uma loja. Para cada artigo, tem-se nome, preço e percentual de desconto. Faça um algoritmo que imprima nome, preço e preço com desconto de cada artigo e o total a pagar.
+
+### Parte 4 Questão 3
+
+[FAURGS-2018-TJ-RS] A questão refere-se ao algoritmo abaixo, escrito em uma pseudolinguagem. Considere X um arranjo; length, uma função que devolve o tamanho do arranjo passado como parâmetro. A endentação demarca blocos de comandos.
+
+```
+1   for j=2 to length(X)
+
+2       do valor = X[ j ]
+
+3           i = j-1
+
+4           while i > 0 e X[ i ] > valor
+
+5               do X[i+1] = X[ i ]
+
+6                   i = i-1
+
+7           X[i+1] = valor
+
+```
+
+Considerando o arranjo `X = [5, 2, 4, 6, 1, 3]`, qual o estado de X após a execução do algoritmo?
 
 <!-- ## Links
 
