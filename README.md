@@ -200,15 +200,56 @@ basquete: altura, peso e idade e as restrições abaixo:
 
 **O trecho de algoritmo, em pseudocódigo, que verifica corretamente se os dados se enquadram nas restrições fornecidas é:**
 
-**(A)** `se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos) então imprima(“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
+**(A)**
 
-**(B)** `se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20)) então imprima (“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
+```
+se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos)
+então
+    imprima(“Candidato aprovado”)
+senão
+    imprima (“Candidato reprovado”)
+```
 
-**(C)** `se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20)) então imprima(“Candidata aprovada”) senão imprima(“Candidata reprovada”)`
+**(B)**
 
-**(D)** `se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20) então imprima (“ Candidata aprovada”) senão imprima (“Candidata reprovada”)`
+```
+se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20))
+então
+    imprima (“Candidato aprovado”)
+senão
+    imprima (“Candidato reprovado”)
+```
 
-**(E)** `se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20)) então imprima (“Candidata aprovada”) senão imprima (“Candidata reprovada”)`
+**(C)**
+
+```
+se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20))
+então
+    imprima(“Candidata aprovada”)
+senão
+    imprima(“Candidata reprovada”)
+```
+
+**(D)**
+
+```
+se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20)
+então
+    imprima (“ Candidata aprovada”)
+senão
+    imprima (“Candidata reprovada”)
+```
+
+**(E)**
+
+```
+se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20))
+então
+    imprima (“Candidata aprovada”)
+senão
+    imprima (“Candidata reprovada”)
+
+```
 
 <!-- ## Page setup
 
@@ -258,3 +299,7 @@ license and is available for free.
 - [Forum](https://aimeos.org/help/typo3-extension-f16/)
 - [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
 - [Source code](https://github.com/aimeos/aimeos-typo3) -->
+
+```
+
+```
