@@ -22,6 +22,7 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Parte 3 Questão 1](#Parte-3-Questão-1)
 - [05/06/2019](#Parte-4)
   - [Parte 4 Questão 1](#Parte-4-Questão-1)
+  - [Parte 4 Questão 2](#Parte-4-Questão-2)
 - [Links](#links) -->
 
 ## Parte 1
@@ -310,6 +311,28 @@ Considere dois vetores A e B com cinco elementos indexados a partir de 1. Qual s
 **B.** Elementos de `B: (7, 1, 3, 1, 2)` (nesta ordem)
 
 [![Questão 4 - Parte 1](http://oi67.tinypic.com/24ypqvb.jpg)](http://oi67.tinypic.com/24ypqvb.jpg)
+
+### Parte 4 Questão 2
+
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir:
+
+- **A)** Ler dois vetores A e B de tamanho N e então trocar seus elementos de forma que o vetor A fique com os elementos do vetor B e vice-versa.
+
+- **B)** Criar vetores para armazenar:
+
+```
+• As vogais do alfabeto;
+
+• As alturas de um grupo de dez pessoas;
+
+• Os nomes dos meses do ano.
+```
+
+- **C)** Criar dois vetores A e B de 10 elementos e, a partir deles, crie um vetor C, composto pela união dos elementos de A e B, dispostos em ordem crescente, exibindo o resultado.
+
+- **D)** A partir de cinco vetores de cinco elementos inteiros, fornecidos pelo usuário, crie uma matriz de cinco linhas e colunas e exiba seu conteúdo.
+
+- **E)** Uma pessoa comprou quatro artigos em uma loja. Para cada artigo, tem-se nome, preço e percentual de desconto. Faça um algoritmo que imprima nome, preço e preço com desconto de cada artigo e o total a pagar.
 
 <!-- ## Links
 
