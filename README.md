@@ -199,6 +199,7 @@ basquete: altura, peso e idade e as restrições abaixo:
 **Idade:** de 15 a 20 anos
 
 **O trecho de algoritmo, em pseudocódigo, que verifica corretamente se os dados se enquadram nas restrições fornecidas é:**
+
 **(A)** `se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos) então imprima(“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
 
 **(B)** `se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20)) então imprima (“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
