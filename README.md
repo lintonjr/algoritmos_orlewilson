@@ -202,8 +202,11 @@ basquete: altura, peso e idade e as restrições abaixo:
 **(A)** `se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos) então imprima(“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
 
 **(B)** `se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20)) então imprima (“Candidato aprovado”) senão imprima (“Candidato reprovado”)`
+
 **(C)** `se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20)) então imprima(“Candidata aprovada”) senão imprima(“Candidata reprovada”)`
+
 **(D)** `se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20) então imprima (“ Candidata aprovada”) senão imprima (“Candidata reprovada”)`
+
 **(E)** `se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20)) então imprima (“Candidata aprovada”) senão imprima (“Candidata reprovada”)`
 
 <!-- ## Page setup
