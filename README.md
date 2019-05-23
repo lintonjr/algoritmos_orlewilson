@@ -430,6 +430,12 @@ Regras:
 
    - Colocar cada questão implementada em uma pasta e depois compactar a pasta em formato .zip ou .rar. Entregar no dia da defesa.
 
+## Contribuições [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
+
+Envolvidos!
+
+<!-- <a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a> -->
+
 <!-- ## Links
 
 - [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
