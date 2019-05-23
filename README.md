@@ -359,6 +359,12 @@ Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a segui
 
 Considerando o arranjo `X = [5, 2, 4, 6, 1, 3]`, qual o estado de X após a execução do algoritmo?
 
+- **(A)** [2, 5, 4, 6, 1, 3]
+- **(B)** [1, 2, 3, 4, 5, 6]
+- **(C)** [2, 4, 5, 6, 1, 3]
+- **(D)** [2, 4, 5, 1, 6, 3]
+- **(E)** [1, 2, 4, 5, 6, 3]
+
 <!-- ## Links
 
 - [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
