@@ -46,10 +46,13 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
 * Considere as seguintes atribuições: R = 2, S = 5, T = -1, X = 3, Y = 1 e Z = 0. Resolva as
   expressões abaixo:
-  • A <- (Z >= 5) or (T > Z) and (X – Y + R > 3 _ Z)
+  • A <- (Z >= 5) or (T > Z) and (X – Y + R > 3 \_ Z)
+
   • B <- (T + 3 >= 4) and not (3 _ R/2 < S _ 3)
+
   • C <- (X == 2) or (Y == 1) AND ((Z == 0) OR (R > 3)) AND (S < 10)
-  • D <- (R <> S) OR NOT (R < X) AND (4327 _ X _ S _ Z == 0)
+
+  • D <- (R <> S) OR NOT (R < X) AND (4327 _ X _ S \_ Z == 0)
 
 <!-- ### TYPO3 extension repository
 
