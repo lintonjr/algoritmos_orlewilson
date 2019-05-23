@@ -125,7 +125,7 @@ Python.
 
 Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Itens de A a I)
 
-a) Exibir o triângulo de Pascal, conforme indicado a seguir:
+**a)** Exibir o triângulo de Pascal, conforme indicado a seguir:
 
 ```
 1
@@ -141,16 +141,16 @@ a) Exibir o triângulo de Pascal, conforme indicado a seguir:
 ...
 ```
 
-b) Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
+**b)** Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
 uma mensagem mostrando o número digital e o resultado do teste.
 
-c) Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
+**c)** Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
 é zero, par ou ímpar.
 
-d) De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
+**d)** De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
 múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
 
-e) Uma loja de departamentos está oferecendo diferentes formas de pagamento,
+**e)** Uma loja de departamentos está oferecendo diferentes formas de pagamento,
 conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor
 do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento
 parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor
@@ -166,17 +166,17 @@ das parcelas.
 • Pagamento em 10 parcelas – acréscimo de 8%
 ```
 
-f) Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
+**f)** Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
 triângulo. O ABC é triângulo `se A < B + C e B < A + C e C < A + B`.
 
-g) Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
+**g)** Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
 rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia `“Banana”`,
 deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“ananaB”`,
 `“nanaBa”`, `“anaBan”`, `“aBanan”`, `“Banana”`.
 
-h) Calcular e mostrar a tabuada de um número informado pelo usuário.
+**h)** Calcular e mostrar a tabuada de um número informado pelo usuário.
 
-i) Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
+**i)** Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
 
 | **Categoria** | **Idade**   |
 | ------------- | ----------- |
