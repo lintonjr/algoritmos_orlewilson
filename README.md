@@ -11,8 +11,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 ## Conteúdo
 
 - [22/05/2019](#Parte1)
-  - [Questão 1](#Questão1)
-  - [Questão 2](#Questão2)
+  - [Questão 1](#Questão-1)
+  - [Questão 2](#Questão-2)
   - [Database](#database)
 - [Page setup](#page-setup)
   - [Upload the page tree file](#upload-the-page-tree-file)
