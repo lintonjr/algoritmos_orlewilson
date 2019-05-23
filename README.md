@@ -24,6 +24,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Parte 4 Questão 1](#Parte-4-Questão-1)
   - [Parte 4 Questão 2](#Parte-4-Questão-2)
   - [Parte 4 Questão 3](#Parte-4-Questão-3)
+- [05/06/2019](#Parte-5)
+  - [Parte 5 Questão 1](#Parte-5-Questão-1)
 - [Links](#links) -->
 
 ## Parte 1
@@ -364,6 +366,26 @@ Considerando o arranjo `X = [5, 2, 4, 6, 1, 3]`, qual o estado de X após a exec
 - **(C)** [2, 4, 5, 6, 1, 3]
 - **(D)** [2, 4, 5, 1, 6, 3]
 - **(E)** [1, 2, 4, 5, 6, 3]
+
+## Parte 5
+
+**Funções**
+
+### Parte 5 Questão 1
+
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir:
+
+- **A)** Sortear os seis números da Mega-Sena e os apresente em uma ordem qualquer. Os números sorteados devem estar no intervalo de 1 a 50. Não pode haver números repetidos.
+
+- **B)** Verificar se um dado número é divisível pelo outro, sendo que ambos devem ser fornecidos pelo usuário, usando a passagem de parâmetros formais de uma função, com a exibição do resultado o programa principal.
+
+- **C)** Escrever uma função denominada InverteCadeia, que, dada uma caia de caracteres S, vai retornar o inverso dessa cadeia. Exemplo: se S = ‘banana’, então InverteCadeia(S) = ‘ananab’.
+
+- **D)** Utilizando a função anterior, ler uma cadeia de caracteres e exibam uma mensagem dizendo se ela é ou não um palíndromo. Lembrando: uma cadeia de caracteres é um palíndromo se possuir o mesmo significado se for lida da esquerda para a direita ou vice-versa.
+
+- **E)** Construa um algoritmo que verifique, sem utilizar a função mod ou %, se um número é divisível por outro usando função.
+
+- **F)** Calcular a somatória dos n primeiros números de um conjunto usando função, de modo que o valor de n deverá ser fornecido pelo usuário.
 
 <!-- ## Links
 
