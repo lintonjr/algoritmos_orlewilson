@@ -20,6 +20,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Parte 2 Questão 3](#Parte-2-Questão-3)
 - [29/05/2019](#Parte-3)
   - [Parte 3 Questão 1](#Parte-3-Questão-1)
+- [05/06/2019](#Parte-4)
+  - [Parte 4 Questão 1](#Parte-4-Questão-1)
 - [Links](#links) -->
 
 ## Parte 1
@@ -30,42 +32,42 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Questões de A à L)
 
-**a)** Ler quatro notas, calcular a média aritmética e imprimir o resultado.
+**A)** Ler quatro notas, calcular a média aritmética e imprimir o resultado.
 
-**b)** Ler um número inteiro e imprimir seu sucessor e seu antecessor.
+**B)** Ler um número inteiro e imprimir seu sucessor e seu antecessor.
 
-**c)** Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a
+**C)** Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a
 variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da
 variável A. Imprimir os valores trocados.
 
-**d)** Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60
+**D)** Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60
 é 0.
 
-**e)** Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A
+**E)** Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A
 fórmula de conversão é C = (F – 32) \* (5/9), na qual F é a temperatura em Fahrenheit
 e C é a temperatura em Celsius.
 
-**f)** Ler um número do tipo real e imprimir o resultado do quadrado desse número.
+**F)** Ler um número do tipo real e imprimir o resultado do quadrado desse número.
 
-**g)** Ler um número do tipo real e imprimir a quinta parte deste número.
+**G)** Ler um número do tipo real e imprimir a quinta parte deste número.
 
-**h)** Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
+**H)** Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido
 proporcionalmente ao valor que cada deu para a realização da aposta. Faça um
 programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima
 quanto cada um ganharia do prêmio com base no valor investido.
 
-**i)** As lojas de um shopping center estão concedendo 10% de desconto no preço de
+**I)** As lojas de um shopping center estão concedendo 10% de desconto no preço de
 qualquer produto. A partir do valor fornecido, calcule e exiba o preço atual e o preço
 com o desconto.
 
-**j)** Ler os valores de COMPRIMENTO, LARGURA e ALTURA e apresentar o valor do volume
+**J)** Ler os valores de COMPRIMENTO, LARGURA e ALTURA e apresentar o valor do volume
 de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO \*
 LARGURA \* ALTURA.
 
-**k)** Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é
+**K)** Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é
 fornecido pelo usuário.
 
-**l)** O número 3025 possui uma característica interessante, sendo a seguinte: 30 + 25 = 55
+**L)** O número 3025 possui uma característica interessante, sendo a seguinte: 30 + 25 = 55
 e 552 = 3025. Elabore um algoritmo que verifique se um número inteiro de quatro
 algarismos (digitado) tem essa propriedade ou não.
 
@@ -126,7 +128,7 @@ Python.
 
 Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Itens de A a I)
 
-**a)** Exibir o triângulo de Pascal, conforme indicado a seguir:
+**A)** Exibir o triângulo de Pascal, conforme indicado a seguir:
 
 ```
 1
@@ -142,16 +144,16 @@ Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a segui
 ...
 ```
 
-**b)** Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
+**B)** Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente
 uma mensagem mostrando o número digital e o resultado do teste.
 
-**c)** Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
+**C)** Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário
 é zero, par ou ímpar.
 
-**d)** De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
+**D)** De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou
 múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
 
-**e)** Uma loja de departamentos está oferecendo diferentes formas de pagamento,
+**E)** Uma loja de departamentos está oferecendo diferentes formas de pagamento,
 conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor
 do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento
 parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor
@@ -167,17 +169,17 @@ das parcelas.
 • Pagamento em 10 parcelas – acréscimo de 8%
 ```
 
-**f)** Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
+**F)** Receber três valores digitados A, B e C e informe se estes podem ser os lados de um
 triângulo. O ABC é triângulo `se A < B + C e B < A + C e C < A + B`.
 
-**g)** Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
+**G)** Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis
 rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia `“Banana”`,
 deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“ananaB”`,
 `“nanaBa”`, `“anaBan”`, `“aBanan”`, `“Banana”`.
 
-**h)** Calcular e mostrar a tabuada de um número informado pelo usuário.
+**H)** Calcular e mostrar a tabuada de um número informado pelo usuário.
 
-**i)** Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
+**I)** Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
 
 | **Categoria** | **Idade**   |
 | ------------- | ----------- |
@@ -295,38 +297,24 @@ F) A partir de um conjunto de números inteiros sequenciais, obtidos com base em
 • A respectiva média para cada um dos itens.
 ```
 
-<!-- ### Upload the page tree file
+## Parte 4
 
-- In the page import dialog
-- Select the "Upload" tab (2nd one)
-- Click on the "Select" dialog
-- Choose the file you've downloaded
-- Press the "Upload files" button
+**VETORES E MATRIZES**
 
-![Upload the page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-upload.png)
+### Parte 4 Questão 1
 
-### Import the uploaded page tree file
+Considere dois vetores A e B com cinco elementos indexados a partir de 1. Qual será o valor da variável C a ser exibido pelo fluxograma a seguir se forem digitados os seguintes valores para os vetores A e B:
 
-- In Import / Export view
-- Select the uploaded file from the drop-down menu
-- Click on the "Preview" button
-- The pages that will be imported are shown below
-- Click on the "Import" button that has appeared
-- Confirm to import the pages
+**A.** Elementos de `A: (4, 6, 7, 1, 0)` (nesta ordem)
 
-![Import the uploaded page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-import.png)
+**B.** Elementos de `B: (7, 1, 3, 1, 2)` (nesta ordem)
 
-Now you have a new page "Shop" in your page tree including all required sub-pages.
+[![Questão 4 - Parte 1](http://oi67.tinypic.com/24ypqvb.jpg)](http://oi67.tinypic.com/24ypqvb.jpg)
 
-## License
-
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
-
-## Links
+<!-- ## Links
 
 - [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
 - [Documentation](https://aimeos.org/docs/TYPO3)
 - [Forum](https://aimeos.org/help/typo3-extension-f16/)
 - [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-- [Source code](https://github.com/aimeos/aimeos-typo3) --> -->
+- [Source code](https://github.com/aimeos/aimeos-typo3) -->
