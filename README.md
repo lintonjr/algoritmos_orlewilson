@@ -177,14 +177,15 @@ deverá ser exibida a sequência de palavras, nesta ordem: `“Banana”`, `“a
 h) Calcular e mostrar a tabuada de um número informado pelo usuário.
 
 i) Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir:
-| **Categoria** | **Idade** |
-| ------------- | ------------- |
-| Infantil | 5 a 7 |
-| Juvenil | 8 a 10 |
-| Adolescente | 11 a 15 |
-| Adolescente | 11 a 15 |
-| Adulto | 16 a 30 |
-| Sênior | Acima de 30 |
+
+| **Categoria** | **Idade**   |
+| ------------- | ----------- |
+| Infantil      | 5 a 7       |
+| Juvenil       | 8 a 10      |
+| Adolescente   | 11 a 15     |
+| Adolescente   | 11 a 15     |
+| Adulto        | 16 a 30     |
+| Sênior        | Acima de 30 |
 
 ### Parte 2 Questão 3
 
