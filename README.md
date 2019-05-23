@@ -21,7 +21,7 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 - [License](#license)
 - [Links](#links) -->
 
-## Parte-1
+## Parte 1
 
 Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
@@ -69,43 +69,20 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
 ## Parte 2
 
-SE-ENTÃO
+**SE-ENTÃO**
 
 ### Parte 2 Questão 1
 
-Starting with Aimeos 18.10 and TYPO3 9.5, it's possible to define the charset and collation for newly created MySQL tables. In case you want to use a NoSQL data store like ElasticSearch for Aimeos products, you need to use a binary collation `utf8mb4_bin` in your `typo3conf/LocalConfiguration.php` file **before** the tables are created:
+Considere o fluxograma a seguir:
+[![Questão 1 - Parte 2](http://oi63.tinypic.com/2e6a3xk.jpg)](http://oi63.tinypic.com/2e6a3xk.jpg)
+**(A)** Identifique as estruturas de programação nela contidas.
 
-```
-'DB' => [
-    'Connections' => [
-        'Default' => [
-            'tableoptions' => [
-                'charset' => 'utf8mb4',
-                'collate' => 'utf8mb4_bin',
-            ],
-            // ...
-        ],
-    ],
-],
-```
+**(B)** Para que serve esse fluxograma? Simule-o para os seguintes valores de N: 1, 2, 3 e 7.
 
-**Caution:** If you use MySQL < 5.7, you have to use `utf8` and `utf8_bin` instead because those MySQL versions can't handle the long indexes created by `utf8mb4` (up to four bytes per character) and you will get errors like `1071 Specified key was too long; max key length is 767 bytes`:
+**(C)** Elabore o algoritmo correspondente em pseudocódigo, linguagem C e linguagem
+Python.
 
-```
-'DB' => [
-    'Connections' => [
-        'Default' => [
-            'tableoptions' => [
-                'charset' => 'utf8',
-                'collate' => 'utf8_bin',
-            ],
-            // ...
-        ],
-    ],
-],
-```
-
-### Extension
+<!-- ### Extension
 
 - Log into the TYPO3 back end
 - Click on ''Admin Tools::Extension Manager'' in the left navigation
@@ -168,4 +145,4 @@ license and is available for free.
 - [Documentation](https://aimeos.org/docs/TYPO3)
 - [Forum](https://aimeos.org/help/typo3-extension-f16/)
 - [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-- [Source code](https://github.com/aimeos/aimeos-typo3) -->
+- [Source code](https://github.com/aimeos/aimeos-typo3) --> -->
