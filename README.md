@@ -25,7 +25,7 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 
 Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
-### Questão1
+### Questão 1
 
 - Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir: (Questões de A à L)
 - Sabendo que A=5, B=4 e C=3 e D=6, informe se as expressões abaixo são verdadeiras ou
@@ -46,7 +46,7 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
   (E) V, V e F.
 
-### Questão2
+### Questão 2
 
 - Considere as seguintes atribuições: R = 2, S = 5, T = -1, X = 3, Y = 1 e Z = 0. Resolva as
   expressões abaixo:
