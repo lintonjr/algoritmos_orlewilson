@@ -11,9 +11,9 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 ## Conteúdo
 
 - [22/05/2019](#Parte1)
-  <!-- - [TYPO3 setup](#typo3-setup)
-    - [Extension](#extension)
-    - [Database](#database)
+  - [TYPO3 setup](#typo3-setup)
+  - [Extension](#extension)
+  - [Database](#database)
 - [Page setup](#page-setup)
   - [Upload the page tree file](#upload-the-page-tree-file)
   - [Go to the import view](#go-to-the-import-view)
