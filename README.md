@@ -18,7 +18,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Parte 2 Questão 1](#Parte-2-Questão-1)
   - [Parte 2 Questão 2](#Parte-2-Questão-2)
   - [Parte 2 Questão 3](#Parte-2-Questão-3)
-- [License](#license)
+- [29/05/2019](#Parte-3)
+  - [Parte 3 Questão 1](#Parte-3-Questão-1)
 - [Links](#links) -->
 
 ## Parte 1
@@ -251,20 +252,50 @@ senão
 
 ```
 
-<!-- ## Page setup
+## Parte 3
 
-The page setup for an Aimeos web shop is easy if you import the [standard page tree for TYPO3 8.7/9.5](https://aimeos.org/docs/TYPO3/Install_Aimeos/Setup_pages#Download) into your TYPO3 installation.
+**REPETIÇÃO**
 
-### Go to the import view
+### Parte 3 Questão 1
 
-- In Web::Page, root page (the one with the globe)
-- Right click on the globe
-- Move the cursor to "Branch actions"
-- In the sub-menu, click on "Import from .t3d"
+- Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir:
 
-![Go to the import view](https://aimeos.org/docs/images/Aimeos-typo3-pages-menu.png)
+```
+A) Escrever um programa que gere a letra da canção muito popular entre os programadores:
 
-### Upload the page tree file
+99 bugs no software, pegue um deles e conserte...
+
+100 bugs no software, pegue um deles e conserte...
+
+101 bugs no software, pegue um deles e conserte...
+
+...
+```
+
+Faça o programa de forma a gerar a letra da música com o número de bugs no software
+variando de 99 a 250.
+
+B) Escreva um programa que imprima todos os anos bissextos do século XXI. Lembre-se que o primeiro ano bissexto do século foi 2004 e que o último será 2096 e que anos bissextos ocorrem usualmente de 4 em 4 anos. Assim, a lista que o programa vai imprimir deve ser `2004`, `2008`, `2012`, `2016`, `...`, `2092`, `2096`.
+
+C) Informar a entrada de n valores e mostre a soma de seus quadrados.
+
+D) Calcular a soma dos primeiros N temos da sequência definida a seguir, com N fornecido pelo usuário: `S = 1 + 2 + 3 + 4 + 5 + ... + N`
+
+E) Considerando a sequência de Fibonacci `(1, 1, 2, 3, 5, 8, 13, ..., n)`, escreva um algoritmo para gerar essa sequência, até o enésimo termo, fornecido pelo usuário. Por exemplo, se o usuário digitou o número 40, deverão ser gerados os primeiros 40 números.
+
+F) A partir de um conjunto de números inteiros sequenciais, obtidos com base em dados fornecidos pelo usuário (número inicial e final), identifique e apresente:
+
+```
+• A quantidade de números pares;
+
+• A quantidade de números ímpares;
+
+• A quantidade de números ímpares e divisíveis por 3 e 7;
+
+• A respectiva média para cada um dos itens.
+```
+
+<!-- ### Upload the page tree file
 
 - In the page import dialog
 - Select the "Upload" tab (2nd one)
@@ -298,8 +329,4 @@ license and is available for free.
 - [Documentation](https://aimeos.org/docs/TYPO3)
 - [Forum](https://aimeos.org/help/typo3-extension-f16/)
 - [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-- [Source code](https://github.com/aimeos/aimeos-typo3) -->
-
-```
-
-```
+- [Source code](https://github.com/aimeos/aimeos-typo3) --> -->
