@@ -10,18 +10,18 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
 
 ## Conteúdo
 
-- [22/05/2019](#Parte1)
+- [22/05/2019](#Parte-1)
   - [Questão 1](#Questão-1)
   - [Questão 2](#Questão-2)
   - [Questão 3](#Questão-3)
-- [Page setup](#page-setup)
-  - [Upload the page tree file](#upload-the-page-tree-file)
+- [29/05/2019](#Parte-2)
+  - [Parte 2 Questão 1](#Parte-2-Questão-1)
   - [Go to the import view](#go-to-the-import-view)
   - [Import the uploaded page tree file](#import-the-uploaded-page-tree-file)
 - [License](#license)
 - [Links](#links) -->
 
-## Parte1
+## Parte-1
 
 Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
 
@@ -67,52 +67,11 @@ Questões a serem entregues e defendidas **Data: 22/05/2019 - Adiada**.
   • D <- (R <> S) OR NOT (R < X) AND (4327 * X * S * Z == 0)
   ```
 
-<!-- ### TYPO3 extension repository
+## Parte 2
 
-If you want to install Aimeos into your existing TYPO3 installation, the [Aimeos extension from the TER](https://typo3.org/extensions/repository/view/aimeos) is recommended. You can download and install it directly from the Extension Manager of your TYPO3 instance.
+SE-ENTÃO
 
-For new TYPO3 installations, there's a 1-click [Aimeos distribution](https://typo3.org/extensions/repository/view/aimeos_dist) available too. Choose the Aimeos distribution from the list of available distributions in the Extension Manager and you will get a completely set up shop system including demo data for a quick start.
-
-### Composer
-
-The latest version can be installed via composer too. This is especially useful if you want to create new TYPO3 installations automatically or play with the latest code. You need to install the [composer](https://getcomposer.org/) package first if it isn't already available:
-
-```
-php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer
-```
-
-In order to tell composer what it should install, you have to create a basic `composer.json` file in the directory of you VHost. It should look similar to this one:
-
-```json
-{
-  "name": "vendor/mysite",
-  "description": "My new TYPO3 web site",
-  "require": {
-    "typo3/cms": "~8.7",
-    "aimeos/aimeos-typo3": "~19.4"
-  },
-  "extra": {
-    "typo3/cms": {
-      "cms-package-dir": "{$vendor-dir}/typo3/cms",
-      "web-dir": "public"
-    }
-  },
-  "scripts": {
-    "post-install-cmd": ["Aimeos\\Aimeos\\Custom\\Composer::install"],
-    "post-update-cmd": ["Aimeos\\Aimeos\\Custom\\Composer::install"]
-  }
-}
-```
-
-It will install TYPO3 and the latest Aimeos TYPO3 extension in the `./public/` directory. Afterwards, the Aimeos composer script will be executed which copies some required files and adds a link to the Aimeos extensions placed in the `./ext/` directory. To start installation, execute composer on the command line in the directory where your `composer.json` is stored:
-
-```
-composer update
-```
-
-## TYPO3 setup
-
-### Database setup
+### Parte 2 Questão 1
 
 Starting with Aimeos 18.10 and TYPO3 9.5, it's possible to define the charset and collation for newly created MySQL tables. In case you want to use a NoSQL data store like ElasticSearch for Aimeos products, you need to use a binary collation `utf8mb4_bin` in your `typo3conf/LocalConfiguration.php` file **before** the tables are created:
 
