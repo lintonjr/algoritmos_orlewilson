@@ -26,7 +26,8 @@ Trabalho de [Algoritmos](https://github.com/lintonjr/algoritmos_orlewilson) da d
   - [Parte 4 Questão 3](#Parte-4-Questão-3)
 - [05/06/2019](#Parte-5)
   - [Parte 5 Questão 1](#Parte-5-Questão-1)
-- [Links](#links) -->
+- [Regras](#Regras)
+  <!-- - [Links](#links) -->
 
 ## Parte 1
 
@@ -379,13 +380,55 @@ Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a segui
 
 - **B)** Verificar se um dado número é divisível pelo outro, sendo que ambos devem ser fornecidos pelo usuário, usando a passagem de parâmetros formais de uma função, com a exibição do resultado o programa principal.
 
-- **C)** Escrever uma função denominada InverteCadeia, que, dada uma caia de caracteres S, vai retornar o inverso dessa cadeia. Exemplo: se S = ‘banana’, então InverteCadeia(S) = ‘ananab’.
+- **C)** Escrever uma função denominada InverteCadeia, que, dada uma caia de caracteres S, vai retornar o inverso dessa cadeia. Exemplo: `se S = ‘banana’, então InverteCadeia(S) = ‘ananab’`.
 
 - **D)** Utilizando a função anterior, ler uma cadeia de caracteres e exibam uma mensagem dizendo se ela é ou não um palíndromo. Lembrando: uma cadeia de caracteres é um palíndromo se possuir o mesmo significado se for lida da esquerda para a direita ou vice-versa.
 
 - **E)** Construa um algoritmo que verifique, sem utilizar a função mod ou %, se um número é divisível por outro usando função.
 
 - **F)** Calcular a somatória dos n primeiros números de um conjunto usando função, de modo que o valor de n deverá ser fornecido pelo usuário.
+
+## Regras
+
+Regras:
+
+1. Equipe
+
+   - No mínimo 2 e no máximo 10 alunos por grupo
+
+2. Pontuação
+
+   - Parte 1: implementação até 2,0 pontos e defesa até 1,0 ponto.
+
+   - Parte 2: implementação até 3,0 pontos e defesa até 1,0 ponto.
+
+   - Parte 3: implementação até 2,0 pontos e defesa até 1,0 ponto.
+
+   - Desafio: cada questão valerá até 1,0 ponto extra com defesa.
+
+3. Defesa
+
+   - O aluno que faltar no dia da defesa, automaticamente perderá o ponto da defesa (1,0 ponto).
+
+   - Em cada parte, uma questão será escolhida uma questão e serão sorteados dois alunos. Caso o aluno sorteado não queira defender, o mesmo perderá o ponto da defesa (1,0 ponto) e a equipe será penalizada com perda de 0,1 na pontuação da defesa.
+
+4. Entrega
+
+   - 22/05/2019: parte 1 (conceitos fundamentais)
+
+   - 29/05/2019: parte 2 (se-então e repetição)
+
+   - 05/06/2019: parte 3 (vetores, matrizes e função)
+
+   - 12/06/2019: questões desafio (quem quiser)
+
+5. Implementação
+
+   - Pode ser feita em linguagem C ou Python.
+
+   - Recomendo usar o site https://www.draw.io/ para desenhar o fluxograma.
+
+   - Colocar cada questão implementada em uma pasta e depois compactar a pasta em formato .zip ou .rar. Entregar no dia da defesa.
 
 <!-- ## Links
 
