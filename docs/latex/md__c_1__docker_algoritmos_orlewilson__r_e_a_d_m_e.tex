@@ -1,0 +1,461 @@
+{\texttt{  }}
+
+\section*{Trabalho de Algoritmos -\/ Prof. Orlewilson}
+
+Trabalho de {\texttt{ Algoritmos}} da disciplina lecionada pelo Professor Orlewilson na F\+MF.
+
+{\texttt{ }}
+
+\subsection*{Conteúdo}
+
+
+\begin{DoxyItemize}
+\item {\texttt{ 22/05/2019}}
+\begin{DoxyItemize}
+\item {\texttt{ Questão 1}}
+\item {\texttt{ Questão 2}}
+\item {\texttt{ Questão 3}}
+\end{DoxyItemize}
+\item {\texttt{ 29/05/2019}}
+\begin{DoxyItemize}
+\item {\texttt{ Parte 2 Questão 1}}
+\item {\texttt{ Parte 2 Questão 2}}
+\item {\texttt{ Parte 2 Questão 3}}
+\end{DoxyItemize}
+\item {\texttt{ 29/05/2019}}
+\begin{DoxyItemize}
+\item {\texttt{ Parte 3 Questão 1}}
+\end{DoxyItemize}
+\item {\texttt{ 05/06/2019}}
+\begin{DoxyItemize}
+\item {\texttt{ Parte 4 Questão 1}}
+\item {\texttt{ Parte 4 Questão 2}}
+\item {\texttt{ Parte 4 Questão 3}}
+\end{DoxyItemize}
+\item {\texttt{ 05/06/2019}}
+\begin{DoxyItemize}
+\item {\texttt{ Parte 5 Questão 1}}
+\end{DoxyItemize}
+\item {\texttt{ Regras}}
+\end{DoxyItemize}
+
+\subsection*{Parte 1}
+
+Questões a serem entregues e defendidas {\bfseries{Data\+: 22/05/2019 -\/ Adiada}}.
+
+\subsubsection*{Questão 1}
+
+
+\begin{DoxyItemize}
+\item Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir\+: (Questões de A à L)
+\item {\bfseries{A)}} Ler quatro notas, calcular a média aritmética e imprimir o resultado.
+\item {\bfseries{B)}} Ler um número inteiro e imprimir seu sucessor e seu antecessor.
+\item {\bfseries{C)}} Ler dois valores para as variáveis A e B, efetuar a troca dos valores de forma que a variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da variável A. Imprimir os valores trocados.
+\item {\bfseries{D)}} Ler um número entre 0 e 60 e mostrar o seu sucessor, sabendo que o sucessor de 60 é 0.
+\item {\bfseries{E)}} Ler uma temperatura em Fahrenheit e a apresente convertida em graus Celsius. A fórmula de conversão é C = (F – 32) $\ast$ (5/9), na qual F é a temperatura em Fahrenheit e C é a temperatura em Celsius.
+\item {\bfseries{F)}} Ler um número do tipo real e imprimir o resultado do quadrado desse número.
+\item {\bfseries{G)}} Ler um número do tipo real e imprimir a quinta parte deste número.
+\item {\bfseries{H)}} Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido proporcionalmente ao valor que cada deu para a realização da aposta. Faça um programa que leia quanto cada apostador investiu, o valor do prêmio, e imprima quanto cada um ganharia do prêmio com base no valor investido.
+\item {\bfseries{I)}} As lojas de um shopping center estão concedendo 10\% de desconto no preço de qualquer produto. A partir do valor fornecido, calcule e exiba o preço atual e o preço com o desconto.
+\item {\bfseries{J)}} Ler os valores de C\+O\+M\+P\+R\+I\+M\+E\+N\+TO, L\+A\+R\+G\+U\+RA e A\+L\+T\+U\+RA e apresentar o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula V\+O\+L\+U\+ME = C\+O\+M\+P\+R\+I\+M\+E\+N\+TO $\ast$ L\+A\+R\+G\+U\+RA $\ast$ A\+L\+T\+U\+RA.
+\item {\bfseries{K)}} Calcule quantas notas de 50, 10 e 1 são necessárias para pagar uma conta cujo valor é fornecido pelo usuário.
+\item {\bfseries{L)}} O número 3025 possui uma característica interessante, sendo a seguinte\+: 30 + 25 = 55 e 552 = 3025. Elabore um algoritmo que verifique se um número inteiro de quatro algarismos (digitado) tem essa propriedade ou não.
+\end{DoxyItemize}
+
+\subsubsection*{Questão 2}
+
+
+\begin{DoxyItemize}
+\item Sabendo que {\ttfamily A=5, B=4 e C=3 e D=6}, informe se as expressões abaixo são verdadeiras ou falsas.
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{I. (A > C) e (C <= D).}
+\DoxyCodeLine{}
+\DoxyCodeLine{II. (A+B) > 10 ou (A+B) = (C+D).}
+\DoxyCodeLine{}
+\DoxyCodeLine{III. (A>=C) e (D >= C).}
+\DoxyCodeLine{}
+\DoxyCodeLine{(A) F, F e F.}
+\DoxyCodeLine{}
+\DoxyCodeLine{(B) V, F e V.}
+\DoxyCodeLine{}
+\DoxyCodeLine{(C) V, V e V.}
+\DoxyCodeLine{}
+\DoxyCodeLine{(D) F, F e V.}
+\DoxyCodeLine{}
+\DoxyCodeLine{(E) V, V e F.}
+\end{DoxyCode}
+
+
+\subsubsection*{Questão 3}
+
+
+\begin{DoxyItemize}
+\item Considere as seguintes atribuições\+: {\ttfamily R = 2, S = 5, T = -\/1, X = 3, Y = 1 e Z = 0}. Resolva as expressões abaixo\+:
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{• A <- (Z >= 5) or (T > Z) and (X – Y + R > 3 * Z)}
+\DoxyCodeLine{}
+\DoxyCodeLine{• B <- (T + 3 >= 4) and not (3 * R/2 < S * 3)}
+\DoxyCodeLine{}
+\DoxyCodeLine{• C <- (X == 2) or (Y == 1) AND ((Z == 0) OR (R > 3)) AND (S < 10)}
+\DoxyCodeLine{}
+\DoxyCodeLine{• D <- (R <> S) OR NOT (R < X) AND (4327 * X * S * Z == 0)}
+\end{DoxyCode}
+
+
+\subsection*{Parte 2}
+
+{\bfseries{S\+E-\/\+E\+N\+TÃO}}
+
+\subsubsection*{Parte 2 Questão 1}
+
+Considere o fluxograma a seguir\+: {\texttt{ }}
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(A)$\ast$$\ast$ Identifique as estruturas de programação nela contidas.
+\item $\ast$$\ast$(B)$\ast$$\ast$ Para que serve esse fluxograma? Simule-\/o para os seguintes valores de N\+: 1, 2, 3 e 7.
+\item $\ast$$\ast$(C)$\ast$$\ast$ Elabore o algoritmo correspondente em pseudocódigo, linguagem C e linguagem Python.
+\end{DoxyItemize}
+
+\subsubsection*{Parte 2 Questão 2}
+
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir\+: (Itens de A a I)
+
+
+\begin{DoxyItemize}
+\item {\bfseries{A)}} Exibir o triângulo de Pascal, conforme indicado a seguir\+:
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1}
+\DoxyCodeLine{}
+\DoxyCodeLine{1 1}
+\DoxyCodeLine{}
+\DoxyCodeLine{1 2 1}
+\DoxyCodeLine{}
+\DoxyCodeLine{1 3 3 1}
+\DoxyCodeLine{}
+\DoxyCodeLine{1 4 6 4 1}
+\DoxyCodeLine{}
+\DoxyCodeLine{...}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item {\bfseries{B)}} Verificar se um número fornecido pelo usuário é par ou ímpar. Para isso, apresente uma mensagem mostrando o número digital e o resultado do teste.
+\item {\bfseries{C)}} Melhorar o algoritmo do item anterior verificando se o número inserido pelo usuário é zero, par ou ímpar.
+\item {\bfseries{D)}} De acordo com um valor fornecido pelo usuário, verifique se ele é múltiplo de 3, ou múltiplo de 7. Apresente uma mensagem mostrando o número e o resultado do teste.
+\item {\bfseries{E)}} Uma loja de departamentos está oferecendo diferentes formas de pagamento, conforme as opções listadas a seguir. Leia o valor total de uma compra e calcule o valor do pagamento final de acordo com a opção escolhida. Se a escolha for pagamento parcelado, calcule também o valor da parcela. Ao fim, apresente o valor total e o valor das parcelas.
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{• Pagamento à visa – conceder desconto de 5\%;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• Pagamento em 3 parcelas – o valor não sofre alteração;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• Pagamento em 5 parcelas – acréscimo de 2\%;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• Pagamento em 10 parcelas – acréscimo de 8\%}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item {\bfseries{F)}} Receber três valores digitados A, B e C e informe se estes podem ser os lados de um triângulo. O A\+BC é triângulo {\ttfamily se A $<$ B + C e B $<$ A + C e C $<$ A + B}.
+\item {\bfseries{G)}} Permitir a entrada de uma cadeia de caracteres S, e então escreva as possíveis rotações à esquerda dessa cadeia. Por exemplo, se for digitada a cadeia {\ttfamily “\+Banana”}, deverá ser exibida a sequência de palavras, nesta ordem\+: {\ttfamily “\+Banana”}, {\ttfamily “anana\+B”}, {\ttfamily “nana\+Ba”}, {\ttfamily “ana\+Ban”}, {\ttfamily “a\+Banan”}, {\ttfamily “\+Banana”}.
+\item {\bfseries{H)}} Calcular e mostrar a tabuada de um número informado pelo usuário.
+\item {\bfseries{I)}} Ler a idade de um nadador e mostrar sua categoria, usando as regras a seguir\+:
+\end{DoxyItemize}
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\bfseries{Categoria}}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\bfseries{Idade}}   }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\bfseries{Categoria}}  }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ {\bfseries{Idade}}   }\\\cline{1-2}
+\endhead
+Infantil  &5 a 7   \\\cline{1-2}
+Juvenil  &8 a 10   \\\cline{1-2}
+Adolescente  &11 a 15   \\\cline{1-2}
+Adolescente  &11 a 15   \\\cline{1-2}
+Adulto  &16 a 30   \\\cline{1-2}
+Sênior  &Acima de 30   \\\cline{1-2}
+\end{longtabu}
+
+
+\subsubsection*{Parte 2 Questão 3}
+
+[F\+CC – 2012 – T\+ST – Técnico Judiciário] Fornecidos os dados das candidatas ao time de basquete\+: altura, peso e idade e as restrições abaixo\+:
+
+{\bfseries{Altura\+:}} de 1.\+70 a 1.\+85 m
+
+{\bfseries{Peso\+:}} de 48 a 60 kg
+
+{\bfseries{Idade\+:}} de 15 a 20 anos
+
+{\bfseries{O trecho de algoritmo, em pseudocódigo, que verifica corretamente se os dados se enquadram nas restrições fornecidas é\+:}}
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(A)$\ast$$\ast$
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{se (1.70 < altura < 1.85) e (48kg < peso< 60kg) e (15 anos < idade < 20 anos)}
+\DoxyCodeLine{então}
+\DoxyCodeLine{    imprima(“Candidato aprovado”)}
+\DoxyCodeLine{senão}
+\DoxyCodeLine{    imprima (“Candidato reprovado”)}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(B)$\ast$$\ast$
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{se ((altura>=1.70 ou altura <= 185) e (peso >=48 ou peso <= 60) e idade (idade >=15 ou idade <=20))}
+\DoxyCodeLine{então}
+\DoxyCodeLine{    imprima (“Candidato aprovado”)}
+\DoxyCodeLine{senão}
+\DoxyCodeLine{    imprima (“Candidato reprovado”)}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(C)$\ast$$\ast$
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{se ((altura >=1.70 e altura <= 1.85) e (peso >= 48 e peso <= 60) e (idade >=15 e idade <=20))}
+\DoxyCodeLine{então}
+\DoxyCodeLine{    imprima(“Candidata aprovada”)}
+\DoxyCodeLine{senão}
+\DoxyCodeLine{    imprima(“Candidata reprovada”)}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(D)$\ast$$\ast$
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{se ( 170 ≤ altura ≤ 1.85 ) e (48 ≤ peso ≤ 60) e (15 ≤ idade ≤ 20)}
+\DoxyCodeLine{então}
+\DoxyCodeLine{    imprima (“ Candidata aprovada”)}
+\DoxyCodeLine{senão}
+\DoxyCodeLine{    imprima (“Candidata reprovada”)}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(E)$\ast$$\ast$
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{se ((altura >= 1.70 e altura <= 1.85) ou (peso>=48 e peso <=60) ou (idade >= 15 e idade <=20))}
+\DoxyCodeLine{então}
+\DoxyCodeLine{    imprima (“Candidata aprovada”)}
+\DoxyCodeLine{senão}
+\DoxyCodeLine{    imprima (“Candidata reprovada”)}
+\end{DoxyCode}
+
+
+\subsection*{Parte 3}
+
+{\bfseries{R\+E\+P\+E\+T\+IÇÃO}}
+
+\subsubsection*{Parte 3 Questão 1}
+
+
+\begin{DoxyItemize}
+\item Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir\+:
+\item {\bfseries{A)}} Escrever um programa que gere a letra da canção muito popular entre os programadores\+:
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{99 bugs no software, pegue um deles e conserte...}
+\DoxyCodeLine{}
+\DoxyCodeLine{100 bugs no software, pegue um deles e conserte...}
+\DoxyCodeLine{}
+\DoxyCodeLine{101 bugs no software, pegue um deles e conserte...}
+\DoxyCodeLine{}
+\DoxyCodeLine{...}
+\end{DoxyCode}
+
+
+Faça o programa de forma a gerar a letra da música com o número de bugs no software variando de 99 a 250.
+
+
+\begin{DoxyItemize}
+\item {\bfseries{B)}} Escreva um programa que imprima todos os anos bissextos do século X\+XI. Lembre-\/se que o primeiro ano bissexto do século foi 2004 e que o último será 2096 e que anos bissextos ocorrem usualmente de 4 em 4 anos. Assim, a lista que o programa vai imprimir deve ser {\ttfamily 2004}, {\ttfamily 2008}, {\ttfamily 2012}, {\ttfamily 2016}, {\ttfamily ...}, {\ttfamily 2092}, {\ttfamily 2096}.
+\item {\bfseries{C)}} Informar a entrada de n valores e mostre a soma de seus quadrados.
+\item {\bfseries{D)}} Calcular a soma dos primeiros N temos da sequência definida a seguir, com N fornecido pelo usuário\+: {\ttfamily S = 1 + 2 + 3 + 4 + 5 + ... + N}
+\item {\bfseries{E)}} Considerando a sequência de Fibonacci {\ttfamily (1, 1, 2, 3, 5, 8, 13, ..., n)}, escreva um algoritmo para gerar essa sequência, até o enésimo termo, fornecido pelo usuário. Por exemplo, se o usuário digitou o número 40, deverão ser gerados os primeiros 40 números.
+\item {\bfseries{F)}} A partir de um conjunto de números inteiros sequenciais, obtidos com base em dados fornecidos pelo usuário (número inicial e final), identifique e apresente\+:
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{• A quantidade de números pares;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• A quantidade de números ímpares;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• A quantidade de números ímpares e divisíveis por 3 e 7;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• A respectiva média para cada um dos itens.}
+\end{DoxyCode}
+
+
+\subsection*{Parte 4}
+
+{\bfseries{V\+E\+T\+O\+R\+ES E M\+A\+T\+R\+I\+Z\+ES}}
+
+\subsubsection*{Parte 4 Questão 1}
+
+Considere dois vetores A e B com cinco elementos indexados a partir de 1. Qual será o valor da variável C a ser exibido pelo fluxograma a seguir se forem digitados os seguintes valores para os vetores A e B\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{A.}} Elementos de {\ttfamily A\+: (4, 6, 7, 1, 0)} (nesta ordem)
+\item {\bfseries{B.}} Elementos de {\ttfamily B\+: (7, 1, 3, 1, 2)} (nesta ordem)
+\end{DoxyItemize}
+
+{\texttt{ }}
+
+\subsubsection*{Parte 4 Questão 2}
+
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{A)}} Ler dois vetores A e B de tamanho N e então trocar seus elementos de forma que o vetor A fique com os elementos do vetor B e vice-\/versa.
+\item {\bfseries{B)}} Criar vetores para armazenar\+:
+\end{DoxyItemize}
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{• As vogais do alfabeto;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• As alturas de um grupo de dez pessoas;}
+\DoxyCodeLine{}
+\DoxyCodeLine{• Os nomes dos meses do ano.}
+\end{DoxyCode}
+
+
+
+\begin{DoxyItemize}
+\item {\bfseries{C)}} Criar dois vetores A e B de 10 elementos e, a partir deles, crie um vetor C, composto pela união dos elementos de A e B, dispostos em ordem crescente, exibindo o resultado.
+\item {\bfseries{D)}} A partir de cinco vetores de cinco elementos inteiros, fornecidos pelo usuário, crie uma matriz de cinco linhas e colunas e exiba seu conteúdo.
+\item {\bfseries{E)}} Uma pessoa comprou quatro artigos em uma loja. Para cada artigo, tem-\/se nome, preço e percentual de desconto. Faça um algoritmo que imprima nome, preço e preço com desconto de cada artigo e o total a pagar.
+\end{DoxyItemize}
+
+\subsubsection*{Parte 4 Questão 3}
+
+[F\+A\+U\+R\+G\+S-\/2018-\/\+T\+J-\/\+RS] A questão refere-\/se ao algoritmo abaixo, escrito em uma pseudolinguagem. Considere X um arranjo; length, uma função que devolve o tamanho do arranjo passado como parâmetro. A endentação demarca blocos de comandos.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1   for j=2 to length(X)}
+\DoxyCodeLine{}
+\DoxyCodeLine{2       do valor = X[ j ]}
+\DoxyCodeLine{}
+\DoxyCodeLine{3           i = j-1}
+\DoxyCodeLine{}
+\DoxyCodeLine{4           while i > 0 e X[ i ] > valor}
+\DoxyCodeLine{}
+\DoxyCodeLine{5               do X[i+1] = X[ i ]}
+\DoxyCodeLine{}
+\DoxyCodeLine{6                   i = i-1}
+\DoxyCodeLine{}
+\DoxyCodeLine{7           X[i+1] = valor}
+\end{DoxyCode}
+
+
+Considerando o arranjo {\ttfamily X = [5, 2, 4, 6, 1, 3]}, qual o estado de X após a execução do algoritmo?
+
+
+\begin{DoxyItemize}
+\item $\ast$$\ast$(A)$\ast$$\ast$ [2, 5, 4, 6, 1, 3]
+\item $\ast$$\ast$(B)$\ast$$\ast$ [1, 2, 3, 4, 5, 6]
+\item $\ast$$\ast$(C)$\ast$$\ast$ [2, 4, 5, 6, 1, 3]
+\item $\ast$$\ast$(D)$\ast$$\ast$ [2, 4, 5, 1, 6, 3]
+\item $\ast$$\ast$(E)$\ast$$\ast$ [1, 2, 4, 5, 6, 3]
+\end{DoxyItemize}
+
+\subsection*{Parte 5}
+
+{\bfseries{Funções}}
+
+\subsubsection*{Parte 5 Questão 1}
+
+Elabore um fluxograma e desenvolva em linguagem C ou Python em cada item a seguir\+:
+
+
+\begin{DoxyItemize}
+\item {\bfseries{A)}} Sortear os seis números da Mega-\/\+Sena e os apresente em uma ordem qualquer. Os números sorteados devem estar no intervalo de 1 a 50. Não pode haver números repetidos.
+\item {\bfseries{B)}} Verificar se um dado número é divisível pelo outro, sendo que ambos devem ser fornecidos pelo usuário, usando a passagem de parâmetros formais de uma função, com a exibição do resultado o programa principal.
+\item {\bfseries{C)}} Escrever uma função denominada Inverte\+Cadeia, que, dada uma caia de caracteres S, vai retornar o inverso dessa cadeia. Exemplo\+: {\ttfamily se S = ‘banana’, então Inverte\+Cadeia(\+S) = ‘ananab’}.
+\item {\bfseries{D)}} Utilizando a função anterior, ler uma cadeia de caracteres e exibam uma mensagem dizendo se ela é ou não um palíndromo. Lembrando\+: uma cadeia de caracteres é um palíndromo se possuir o mesmo significado se for lida da esquerda para a direita ou vice-\/versa.
+\item {\bfseries{E)}} Construa um algoritmo que verifique, sem utilizar a função mod ou \%, se um número é divisível por outro usando função.
+\item {\bfseries{F)}} Calcular a somatória dos n primeiros números de um conjunto usando função, de modo que o valor de n deverá ser fornecido pelo usuário.
+\end{DoxyItemize}
+
+\subsection*{Regras}
+
+Regras\+:
+
+
+\begin{DoxyEnumerate}
+\item Equipe
+\begin{DoxyItemize}
+\item No mínimo 2 e no máximo 10 alunos por grupo
+\end{DoxyItemize}
+\item Pontuação
+\begin{DoxyItemize}
+\item Parte 1\+: implementação até 2,0 pontos e defesa até 1,0 ponto.
+\item Parte 2\+: implementação até 3,0 pontos e defesa até 1,0 ponto.
+\item Parte 3\+: implementação até 2,0 pontos e defesa até 1,0 ponto.
+\item Desafio\+: cada questão valerá até 1,0 ponto extra com defesa.
+\end{DoxyItemize}
+\item Defesa
+\begin{DoxyItemize}
+\item O aluno que faltar no dia da defesa, automaticamente perderá o ponto da defesa (1,0 ponto).
+\item Em cada parte, uma questão será escolhida uma questão e serão sorteados dois alunos. Caso o aluno sorteado não queira defender, o mesmo perderá o ponto da defesa (1,0 ponto) e a equipe será penalizada com perda de 0,1 na pontuação da defesa.
+\end{DoxyItemize}
+\item Entrega
+\begin{DoxyItemize}
+\item 22/05/2019\+: parte 1 (conceitos fundamentais)
+\item 29/05/2019\+: parte 2 (se-\/então e repetição)
+\item 05/06/2019\+: parte 3 (vetores, matrizes e função)
+\item 12/06/2019\+: questões desafio (quem quiser)
+\end{DoxyItemize}
+\item Implementação
+\begin{DoxyItemize}
+\item Pode ser feita em linguagem C ou Python.
+\item Recomendo usar o site {\texttt{ https\+://www.\+draw.\+io/}} para desenhar o fluxograma.
+\item Colocar cada questão implementada em uma pasta e depois compactar a pasta em formato .zip ou .rar. Entregar no dia da defesa. 
+\end{DoxyItemize}
+\end{DoxyEnumerate}
